@@ -42,7 +42,7 @@ def update_task_status(task_id, status):
 
 # Send Email Notification
 def send_email(task_name, assigned_time):
-    sender_email = "harshaltapre28@gmail.com"  
+    sender_email = "ha-----@gmail.com"  
     sender_password = "pwjw iesz pxux cjad" 
     receiver_email = "harshaltapre27@yahoo.com" 
     
