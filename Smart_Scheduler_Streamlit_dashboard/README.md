@@ -53,5 +53,5 @@ Contributions are welcome. Feel free to submit pull requests or open issues for 
 
 
 ---
-### Follow for updates: [GitHub Repo Link]
+### Follow for updates: [https://github.com/harshaltapre/Projects/edit/main/Smart_Scheduler_Streamlit_dashboard]
 
