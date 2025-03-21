@@ -8,18 +8,16 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime, timedelta
 
-# --------- CONFIGURATION ---------
 # Email settings (replace with your actual email)
-SENDER_EMAIL = "harshaltapre25@gmail.com"
-EMAIL_PASSWORD = "harshal2004"  # App password from Google, not your regular password
-RECEIVER_EMAIL = "harshaltapre28@gmail.com"
+SENDER_EMAIL = "@gmail.com"
+EMAIL_PASSWORD = "----------"  # App password from Google, not your regular password
+RECEIVER_EMAIL = "harshaltapre27@gmail.com"
 
-# --------- DATABASE FUNCTIONS ---------
 def setup_database():
     conn = sqlite3.connect("reminders.db")
     cursor = conn.cursor()
     
-    # Create table if it doesn't exist
+    # Create table 
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS reminders (
             id INTEGER PRIMARY KEY, 
@@ -154,7 +152,6 @@ Schedulr"""
         print(f"Error sending email: {e}")
         return False
 
-# --------- TASK SCHEDULER FUNCTIONS ---------
 # Check for tasks that are due
 def check_for_due_tasks():
     try:
