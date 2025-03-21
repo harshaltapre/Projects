@@ -8,7 +8,6 @@ Smart Scheduler is a task management system built using **Streamlit, SQL, and Py
 - Automated notifications for scheduled tasks.
 - Database integration using SQL for efficient task storage.
 - Real-time updates to refresh the schedule dynamically.
-- Cross-platform compatibility, working on Windows, Linux, and macOS.
 
 ## Requirements
 Ensure you have the following installed:
@@ -40,8 +39,10 @@ pip install streamlit pandas sqlite3
 
 ## Limitations
 - Requires manual configuration for email notifications.
-- The user interface is basic and may need enhancements for a better experience.
-- Currently designed for web use only, with no dedicated mobile app.
+
+## Honest Talk
+- Sometimes, the application may experience minor issues or get stuck. To address this, I have provided two files as alternatives.
+- Feel free to use AI tools to enhance the project further. I am not a professional, but I have put my best effort into building this.
 
 ## Future Improvements
 - Google Calendar integration for seamless task synchronization.
